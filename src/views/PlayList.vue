@@ -69,6 +69,7 @@ export default {
       this.authorization =  this.$route.query.token_type + ' ' + this.$route.query.access_token
       console.log(this.authorization)
       this.$router.replace('/')
+      this.getPlayLists
     }
   },
   methods: {
