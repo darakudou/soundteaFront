@@ -133,7 +133,6 @@ export default {
           })
         })
         datacollection["labels"] = labels 
-
         datacollection["datasets"] =  [ 
           {
             label: 'tempo',
